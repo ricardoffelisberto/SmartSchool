@@ -7,7 +7,6 @@ namespace SmartSchoolAPI.Models
         {
             this.AlunoId = alunoId;
             this.DisciplinaId = disciplinaId;
-   
         }
         public int AlunoId { get; set; }
         public Aluno Aluno { get; set; }

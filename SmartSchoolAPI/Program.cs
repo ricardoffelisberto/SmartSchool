@@ -7,7 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SmartContext>(
     context => context.UseSqlite(builder.Configuration.GetConnectionString("Default"))
 );
-builder.Services.AddControllers();
+
+builder.Services.AddScoped<IRepository, Repository>();
+
+builder.Services.AddControllers().AddNewtonsoftJson(
+    opt => opt.SerializerSettings.ReferenceLoopHandling = 
+    Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

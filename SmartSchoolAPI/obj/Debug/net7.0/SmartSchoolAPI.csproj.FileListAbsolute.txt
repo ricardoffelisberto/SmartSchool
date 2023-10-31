@@ -67,3 +67,7 @@ C:\cursos\smartschool\SmartSchoolAPI\obj\Debug\net7.0\refint\SmartSchoolAPI.dll
 C:\cursos\smartschool\SmartSchoolAPI\obj\Debug\net7.0\SmartSchoolAPI.pdb
 C:\cursos\smartschool\SmartSchoolAPI\obj\Debug\net7.0\SmartSchoolAPI.genruntimeconfig.cache
 C:\cursos\smartschool\SmartSchoolAPI\obj\Debug\net7.0\ref\SmartSchoolAPI.dll
+c:\cursos\smartschool\SmartSchoolAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\cursos\smartschool\SmartSchoolAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+c:\cursos\smartschool\SmartSchoolAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+c:\cursos\smartschool\SmartSchoolAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
